@@ -19,7 +19,7 @@ main{
         height: 100%;
         background-color: #a63e3e;
         flex-grow: 1;
-        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
     }
     section:nth-child(1){
        background-image: url(https://i.pinimg.com/736x/57/19/20/5719203ee964ad5120a162e8c56de253.jpg);
