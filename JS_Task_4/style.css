@@ -28,6 +28,7 @@ main #box {
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
 main #box img {
   height: 90%;
@@ -41,7 +42,7 @@ main #box p {
   font-size: 20px;
 }
 main #box i {
-  background: radial-gradient(blue, rgb(241, 4, 43));
+  background: radial-gradient(rgb(244, 244, 255), rgb(84, 15, 196));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;

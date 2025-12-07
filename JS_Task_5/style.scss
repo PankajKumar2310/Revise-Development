@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+    #card{
+        height: 250px;
+        width: 200px;
+        background-color: #cce5c0;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px ;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        white-space: no-wrap;
+        
+        #ig img{
+            border-radius: 80px ;
+            height: 100px;
+            border: none;
+            object-fit: contain;
+        }
+
+        h2{
+            font-family: 20px;
+        }
+        
+        p{
+            color: rgb(107, 102, 103);
+        }
+    }
+}
+
